@@ -15,6 +15,10 @@ public class gato {
         this.peso = peso;
         this.tamanio= tamanio; 
         this.color= color; 
+
+
+
+
     }
     
     //Metodos
