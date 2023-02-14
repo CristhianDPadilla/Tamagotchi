@@ -4,13 +4,16 @@ public class gato {
     int edad;
     String raza;
     double peso;
+    double tamanio;
+    String color;
 
     //Metodo constructor
-    public gato (String nombre, int edad, String raza, double peso) {
+    public gato (String nombre, int edad, String raza, double peso, double tamanio, String color) {
         this.nombre = nombre;
         this.edad = edad;
         this.raza = raza;
         this.peso = peso;
+        this.tamanio= tamanio; 
     }
     
     //Metodos
@@ -28,6 +31,12 @@ public class gato {
     
     public void lamer(){
         System.out.println("Plop! Plop!");
+    }
+    public void comer(){
+        System.out.println ("Dame de comer >:c");
+    }
+    public void jugar (){
+        System.out.println("Humano, juega conmigo :3");
     }
     
 }
