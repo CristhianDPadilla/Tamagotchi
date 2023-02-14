@@ -6,16 +6,20 @@ public class perro {
     String raza;
     String genero;
     int    edad;
+    String color;
+    double tamanio;
     
     
     
     
     //Método constructor
-    public perro (String nombre, String raza, String genero, int edad){
+    public perro (String nombre, String raza, String genero, int edad, String color, double tamanio){
         this.nombre = nombre;
         this.raza = raza;
         this.genero = genero;
         this.edad = edad;
+        this.color=color;
+        this.tamanio=tamanio; 
     }
     
     
@@ -42,7 +46,11 @@ public class perro {
         System.out.println("Zzzzzzzz");
     }
     
-        
+   public void morder(){
+       System.out.println("tengo sueñoooo");
+   }
+   public void jugar(){
+       System.out.println("Quiero jugar");
     
     
 }
