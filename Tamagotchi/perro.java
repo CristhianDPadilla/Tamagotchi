@@ -2,8 +2,8 @@
 public class perro {
     //Atributos
     
-    private String nombre;
-    private String raza;
+    String nombre;
+    String raza;
     
     
     
